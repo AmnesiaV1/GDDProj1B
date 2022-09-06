@@ -1,0 +1,20 @@
+GDD Proj1B Ideas:
+
+2 new enemies-
+	*A ranged enemy that shoots projectiles at you if you get close enough
+	*A scaled up boss enemy similar to default enemy but also maybe with shooting mechanics
+
+2 new items-
+	*A medkit or something that heals
+	*A shield that blocks incoming damage
+
+2 new abilities-
+	*An enraged mode where you can deal more damage but also take more damage
+	*A magic spell that shoots projectiles at enemies
+
+2 new UI elements: 
+	*Maybe cooldown indicators for the abilities?
+
+2 new levels:
+	*A level with predominantly ranged enemies
+	*A level with the boss enemy
