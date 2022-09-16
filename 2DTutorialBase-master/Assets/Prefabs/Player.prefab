@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -91322625
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 4848349341741214232, guid: 504308f08b44af1439720d650a307d95,
     type: 3}
@@ -143,6 +143,16 @@ MonoBehaviour:
   attackSpeed: 0.5
   hitboxTiming: 0.1
   endAnimationTiming: 0.1
+  sprintSpeed: 5
+  maxStamina: 3
+  staminaRechargeRate: 0.4
+  StaminaSlider: {fileID: 0}
+  spell: {fileID: 5429520601284948229, guid: 48f60cd1c611e1e40ad73c66879e414b, type: 3}
+  castSpeed: 10
+  castTimer: 0
+  FireballCooldown: {fileID: 0}
+  maxHealth: 5
+  HPSlider: {fileID: 0}
 --- !u!95 &930979759310054968
 Animator:
   serializedVersion: 4

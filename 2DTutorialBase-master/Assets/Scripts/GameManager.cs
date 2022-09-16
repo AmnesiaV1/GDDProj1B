@@ -29,6 +29,16 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void Level2()
+    {
+        SceneManager.LoadScene("TurretLevel");
+    }
+
+    public void BossLevel()
+    {
+        SceneManager.LoadScene("BossArena");
+    }
+
     public void WinGame()
     {
         SceneManager.LoadScene("WinScene");

@@ -1,20 +1,41 @@
 GDD Proj1B Ideas:
 
 2 new enemies-
-	*A ranged enemy that shoots projectiles at you if you get close enough
-	*A scaled up boss enemy similar to default enemy but also maybe with shooting mechanics
+	COMPLETE: *A ranged enemy that shoots projectiles at you if you get close enough
+
+	COMPLETE: *A scaled up boss enemy similar to default enemy but also maybe with shooting mechanics
+
 
 2 new items-
-	*A medkit or something that heals
-	*A shield that blocks incoming damage
+	COMPLETE: *Magic spell cooldown reducer: 
+		-On timer of 10 seconds
+		-Significantly reduces cast time of spell
+		-Changes color of fireball cooldown icon (to maybe a light blue) while active
+	COMPLETE: *Max Health potion: 
+		-+5 to max health
+		-Stacks
+
 
 2 new abilities-
-	*An enraged mode where you can deal more damage but also take more damage
-	*A magic spell that shoots projectiles at enemies
+	COMPLETE: *A sprint button
+		-Upon HOLDING LeftShift increase moveSpeed
+		-Is on a cooldown much like attacking
+		-Recharges slowly after letting go of LeftShift
+
+	COMPLETE: *A magic spell that shoots a big fireball forward 
+		-On a big cooldown
+		-Deals heavy damage
+
 
 2 new UI elements: 
-	*Maybe cooldown indicators for the abilities?
+	COMPLETE: *A sprint meter
+
+	COMPLETE: *An indicator of when the fireball is off cooldown
+
+	COMPLETE: *Additional level buttons on menu screens
+
 
 2 new levels:
-	*A level with predominantly ranged enemies
-	*A level with the boss enemy
+	COMPLETE: *A level with predominantly ranged enemies
+
+	COMPLETE: *A level with the boss enemy

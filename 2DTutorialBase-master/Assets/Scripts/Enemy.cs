@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
 {
     #region Movement_variables
     public float moveSpeed;
-
     #endregion
 
     #region Targetting_variables
@@ -88,11 +87,14 @@ public class Enemy : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D coll)
     {
-        if (collision.transform.CompareTag("Player"))
+        if (coll.transform.CompareTag("Player"))
         {
-            Explode();
+            if (coll != null)
+            {
+                Explode();
+            }
         }
     }
     #endregion
@@ -105,7 +107,6 @@ public class Enemy : MonoBehaviour
 
         //decrement health
         currHealth -= value;
-        Debug.Log("Health is now" + currHealth.ToString());
 
         if (currHealth <= 0)
         {

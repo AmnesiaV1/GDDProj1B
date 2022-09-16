@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoseScene.unity
     guid: dc4d751343e5dea43b742128ded25a54
+  - enabled: 1
+    path: Assets/Scenes/TurretLevel.unity
+    guid: c0c3bd150583204409c412b21d8dca28
+  - enabled: 1
+    path: Assets/Scenes/BossArena.unity
+    guid: 6ec03f504470ef64b82b1b12280b996d
   m_configObjects: {}
